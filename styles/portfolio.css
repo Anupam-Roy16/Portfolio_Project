@@ -51,6 +51,12 @@
     color: #757575;
     margin-bottom: 30px;
 }
+.text-center{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
 
 /* main_style */
 header{
@@ -58,7 +64,7 @@ header{
     padding-top: 50px;
     background: url(../images/developer.png),url(../images/header_bg.png),#FFF8F3;;
     background-repeat: no-repeat;
-    background-position: top left, bottom right ;
+    background-position: 23px 38px, bottom right ;
 }
 nav{
     width: 71%;
@@ -184,6 +190,7 @@ nav .menu a{
 
 #resume .resume-container hr{
     margin: 30px 0;
+    color: #D1D1D1
 }
 .resume-container .section-title{
     font-size: 30px;
@@ -212,4 +219,49 @@ nav .menu a{
     color: #757575;
     line-height: 28px;
 
+}
+/* .icons{
+    display: flex;
+    gap: 24px;
+} */
+footer{
+    margin-top: 113px;
+    padding: 130px 0;
+    background-color: #FFF8F3;
+
+}
+footer .footer-container{
+    max-width: 1140px;
+    width: 71%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.footer-container .social{
+    max-width: 562px;
+}
+.footer-container .social h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-container .social p{
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer-container .social .icons a{
+    margin-right: 24px;
+}
+.footer-container form input[type="text"] , 
+.footer-container form textarea
+{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;    
 }
